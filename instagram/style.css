@@ -1,0 +1,413 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none !important;
+}
+
+body{
+
+    background-color: #FFFFFF;
+
+}
+
+header{
+    padding: 18px;
+    background-color: #E9F1FA !important;
+    font-weight: 700;
+}
+
+.nav-item .menu {
+    color: #00ABE4!important;
+    font-size: 18px !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .nav-item.dropdown .dropdown-menu a{
+    background-color: #00ABE4 !important;
+  }
+
+  .nav-item.dropdown .dropdown-menu a:hover{
+    color: #00ABE4 !important ;
+    background-color: #E9F1FA !important;
+  }
+
+.dropdown-menu{
+    background-color: #00ABE4 !important;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    margin-right: 30px !important;
+}
+.navbar{
+    padding: 0 !important;
+}
+
+.navbar-brand img{
+    max-width: 100%;
+    width: 120px;
+}
+
+
+
+.hidden {
+    display: none;
+  }
+
+.insta-download{
+    background: #00ABE4;
+    padding: 30px;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+#insta-flters {
+    padding: 0;
+    margin: 0 auto 35px auto;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+  }
+  
+ #insta-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #149ddd;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+#portfolio-flters li:last-child {
+    margin-right: 0;
+  }
+
+
+  .instaTabContent{
+    background: #00ABE4;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 17px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 0px rgb(255 255 255);
+  }
+
+  .input-group input{
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    height: 52px;
+    font-size: 16px;
+    color: #070708;
+
+  }
+
+.instaTabContent button{
+    border-radius: 8px;
+    border: 2px solid #150523;
+    background: #E9F1FA;
+    display: block;
+    color: #070708;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    padding: 12px 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    line-height: 22px;
+}
+
+.input-group-append button{
+    width: 50%;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 5px !important;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    font-weight: 700;
+    line-height: 30px;
+    outline: none;
+    position: relative;
+    transition: 0.4s ease;
+}
+
+.input-group-append span{
+    color: #00abe4;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.items-download {
+    justify-content: space-evenly;
+}
+
+.paste-btn{
+    border: navajowhite;
+    border-radius: 5px;
+}
+
+.input-group .input-group-text{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.play-ins{
+    color: #00abe4;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left !important;
+}
+
+.play-ins li{
+    margin: 10px;
+}
+
+.play-ins .play-inshead{
+    font-size: 22px;
+    margin: 20px !important;
+}
+
+
+
+@media only screen and (max-width: 775px){
+
+    #insta-flters{
+        background: transparent;
+    }
+
+
+
+    #insta-flters li{
+        background-color: #FFFFFF;
+        padding: 10px;
+        display: block;
+    }
+
+    .instaTabContent button{
+        padding: 5px;
+        font-size: 14px;
+        width: 70%;
+    }
+
+    .instaTabContent input{
+        padding: 6px;
+    
+      }
+
+      .instaTabContent h2{
+        font-size: 20px;
+    
+      }
+
+      .instaTabContent p{
+        font-size: 15px;
+    
+      }
+
+      .result-class{
+        overflow: auto;
+      }
+
+    @media only screen and (max-width: 700px){
+
+
+        .nav-item a{
+            font-size: 15px !important;
+        }
+    }
+
+    .result-img img{
+        width: 200px;
+    }
+
+    .accordion-item .accordion-button{
+        font-size: 12px !important;
+    }
+
+    .accordion-body{
+        font-size: 12px !important;
+    }
+
+
+    .accordion h2{
+        font-size: 20px !important;
+    }
+
+    .insta-use .section-title h2{
+        font-weight: 800;
+        font-size: 20px !important;
+    }
+
+    .use-content h2{
+        font-weight: 800;
+        font-size: 20px !important;
+    }
+
+    .use-content p{
+        font-size: 15px !important;
+    }
+
+    figure img{
+        max-width: 100% !important;
+    }
+    
+    .banner-context h2{
+        font-size: 18px !important;
+    }
+
+    .input-group-append span{
+        font-size: 15px !important;
+    }
+
+    .tab-pane h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .nav-item .tap{
+        font-weight: 800;
+        font-size: 13px !important;
+    }
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #000;
+}
+
+.nav-item .tap{
+    color: #00ABE4 !important;
+    background-color: #E9F1FA;
+}
+
+.nav-link i{
+    color: #00ABE4 !important;
+
+}
+
+.banner-context h2{
+    font-size: 28px;
+}
+
+.insta-content{
+    padding: 20px;
+}
+
+.accordion-item {
+    margin: 10px;
+}
+.accordion-item a{
+    color: #00ABE4;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+
+.accordion-item .accordion-button {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #00ABE4 !important;
+    border-radius: 5px !important;
+}
+
+
+.accordion-body{
+    background-color: #E9F1FAed;
+}
+
+
+.content{
+    padding: 20px;
+}
+
+.footer{
+    background-color: #E9F1FA !important;
+}
+
+.footer li{
+    list-style: none !important;
+}
+
+.footer .nav-item a{
+    color: #00ABE4 !important;
+}
+
+.icon{
+    margin-bottom: 20px;
+}
+
+.icon a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 45px;
+    color: #fff;
+    background: #00ABE4;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 1.5px;
+    transition: 0.4s;
+}
+
+
+.icon a i{
+    padding: 14px;
+}
+
+
+.insta-use .section-title h2{
+    font-size: 35px;
+    font-weight: 700;
+    border-bottom: 1px solid #00ABE4;
+    padding-bottom: 5px;
+}
+
+.use-content h2{
+    font-size: 27px;
+}
+
+.insta-use p{
+    margin-top: 15px;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img{
+    max-width: 50%;
+}
+
+.faq .section-title h3,
+.faq .section-title p{
+    margin: 10px;
+}
+
+.faq .section-title h2{
+    margin: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    border-bottom: 1px solid #00ABE4;
+    padding-bottom: 5px;
+}
